@@ -1,5 +1,5 @@
 body{
-  background-color:#FFFFFF;
+  background-color:#555555;
   margin: 0;
   font-family: 'Indie Flower', cursive;
 }
@@ -9,22 +9,26 @@ ul, li{
 }
 
 header{
-  background-color:#4682B4;
+  background-color:#1C86EE;
   text-align: center;
   color: white;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.telefone{
-  text-decoration:underline;
-}
+  header a{
+    text-decoration: none;
+  }
+
+
   header .profile-picture{
     width: 125px;
     height: 125px;
     border-radius: 50%;
   }
-
+.links{
+  padding-left: 0px;
+}
 .links li{
   display: inline;
 }
